@@ -1,0 +1,25 @@
+{
+  "name": "react-tut",
+  "version": "0.0.1",
+  "description": "A test React application",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava 'app/**/*.test.js' --verbose --require ./other/setup-ava-tests.js",
+    "production": "webpack -p",
+    "start": "webpack-dev-server"
+  },
+  "author": "Elthyri0r",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "react-dom": "^15.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-react": "^6.16.0",
+    "html-webpack-plugin": "^2.24.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
